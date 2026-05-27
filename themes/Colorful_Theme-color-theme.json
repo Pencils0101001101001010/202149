@@ -46,7 +46,16 @@
     "editorError.foreground": "#ff0000", // Underline color for critical code errors (Hot Pink)
     "editorWarning.foreground": "#fad506", // Underline color for basic warnings (Vibrant Orange)
     "editorInfo.foreground": "#b811fa", // Underline color for helpful hints/info (Cyan)
-    "editorHint.foreground": "#60f40f" // Underline color for spell checks and code hints (Neon Green)
+    "editorHint.foreground": "#60f40f", // Underline color for spell checks and code hints (Neon Green)
+
+    // --- Bracket Pair Colorization ---
+    "editorBracketHighlight.foreground1": "#11faea", // Outermost brackets (Layer 1)
+    "editorBracketHighlight.foreground2": "#ff029a", // Second inner brackets (Layer 2)
+    "editorBracketHighlight.foreground3": "#60f40f", // Third inner brackets (Layer 3)
+    "editorBracketHighlight.foreground4": "#f606fa", // Fourth layer
+    "editorBracketHighlight.foreground5": "#cb02f8", // Fifth layer
+    "editorBracketHighlight.foreground6": "#068fff", // Sixth layer
+    "editorBracketHighlight.unexpectedBracket.foreground": "#f44747" // Broken/mismatched brackets
   },
   "tokenColors": [
     {
@@ -395,7 +404,7 @@
         "support.variable"
       ],
       "settings": {
-        "foreground": "#c2fe9c"
+        "foreground": "#6fc4e1"
       }
     },
     {
