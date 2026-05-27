@@ -6,17 +6,20 @@
 
     // --- File Explorer & Sidebar ---
     "sideBar.foreground": "#11faeaa6", // Standard file and folder names
+    "list.hoverBackground": "#ff029a15", // Background highlight when hovering over a file (Transparent Pink)
+
     "list.hoverForeground": "#7c1e2e", // File name color when you hover over it
     "list.activeSelectionForeground": "#02ff0a", // File name color of the file you are currently clicking
 
     // --- Git Status File Colors (Modified/New files) ---
-    "gitDecoration.modifiedResourceForeground": "#fab106", // Color of changed files (Yellow/Orange)
+    "gitDecoration.modifiedResourceForeground": "#9406fa", // Color of changed files (Yellow/Orange)
     "gitDecoration.untrackedResourceForeground": "#73ff00", // Color of brand new files (Green)
     "gitDecoration.ignoredResourceForeground": "#5a04f8", // Color of files in your .gitignore (Purple)
 
     // --- Editor Tabs (Top of the screen) ---
     "tab.activeForeground": "#11faea", // File name of your currently open tab
     "tab.inactiveForeground": "#01fbde5a",
+
     // --- Top Title Bar (Navbar) ---
     "titleBar.activeBackground": "#0f0101", // Background when focusing on VS Code
     "titleBar.activeForeground": "#11faeaa6", // Text & main menu color ("File", "Edit", etc.)
@@ -55,7 +58,13 @@
     "editorBracketHighlight.foreground4": "#f606fa", // Fourth layer
     "editorBracketHighlight.foreground5": "#cb02f8", // Fifth layer
     "editorBracketHighlight.foreground6": "#068fff", // Sixth layer
-    "editorBracketHighlight.unexpectedBracket.foreground": "#f44747" // Broken/mismatched brackets
+    "editorBracketHighlight.unexpectedBracket.foreground": "#f44747", // Broken/mismatched brackets
+    // --- Copy / Action Flash ---
+    "editor.lineHighlightBackground": "#ff029a15", // The temporary flash when copying a line
+
+    // --- Text Selection Highlight (Dragging mouse) ---
+    "editor.selectionBackground": "#ff029a43", // Highlighting color when selecting text
+    "editor.selectionHighlightBackground": "#04f3dfd3" // Highlights matching words elsewhere on screen
   },
   "tokenColors": [
     {
