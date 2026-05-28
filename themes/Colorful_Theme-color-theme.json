@@ -123,7 +123,7 @@
     {
       "scope": "entity.name.tag.css",
       "settings": {
-        "foreground": "#d7ba7d"
+        "foreground": "#0553fa"
       }
     },
     {
@@ -290,19 +290,19 @@
         "variable.other.less"
       ],
       "settings": {
-        "foreground": "#f296fc"
+        "foreground": "#e502fe"
       }
     },
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#569cd6"
+        "foreground": "#028dff"
       }
     },
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#0587f0"
+        "foreground": "#01477c"
       }
     },
     {
@@ -413,7 +413,7 @@
         "support.variable"
       ],
       "settings": {
-        "foreground": "#6fc4e1"
+        "foreground": "#9be16f"
       }
     },
     {
@@ -438,7 +438,7 @@
         "support.constant.color"
       ],
       "settings": {
-        "foreground": "#fd9f64"
+        "foreground": "#04fce7"
       }
     },
     {
